@@ -66,7 +66,7 @@ const Header = () => {
             <div className="brokers-dropdown">
               <div className="d-flex gap-2 align-items-center brokers-dropdown-btn" onClick={() => setMegaMenu(!megaMenu)}>
                 <i className="ph ph-squares-four"></i>
-                <span className="font-medium d-none d-md-block text-white">Best Brokers</span>
+                <span className="font-medium d-none d-md-block text-white">Best Gifts</span>
                 <i className="ph ph-caret-down d-none d-md-block"></i>
               </div>
 
@@ -74,71 +74,71 @@ const Header = () => {
                 <div className="container-fluid mx-auto">
                   <div className="row justify-content-between">
                     <div className="category col-lg-8 col-xl-9">
-                      <h5 className="fw-semibold mb-4 text-capitalize">Best brokers by categories</h5>
+                      <h5 className="fw-semibold mb-4 text-capitalize">Best gifts by categories</h5>
                       <div className="row g-2 g-md-3 gx-xl-4">
                         <div onClick={() => setMegaMenu(false)} className="col-12 col-sm-6">
                           <Link href="/best-brokers-one" className="category-item">
                             <Image src={brokerCat1} alt="" />
-                            <p className="m-text fw-medium">Best Stock Brokers</p>
+                            <p className="m-text fw-medium">Best Birthday Gifts</p>
                           </Link>
                         </div>
                         <div onClick={() => setMegaMenu(false)} className="col-12 col-sm-6">
                           <Link href="/best-brokers-one" className="category-item">
                             <Image src={brokerCat2} alt="" />
-                            <p className="m-text fw-medium">Best Forex Brokers</p>
+                            <p className="m-text fw-medium">Best Gifts for Adult Men</p>
                           </Link>
                         </div>
                         <div onClick={() => setMegaMenu(false)} className="col-12 col-sm-6">
                           <Link href="/best-brokers-one" className="category-item">
                             <Image src={brokerCat3} alt="" />
-                            <p className="m-text fw-medium">Best CFD Brokers</p>
+                            <p className="m-text fw-medium">Best Gifts for Adult Women</p>
                           </Link>
                         </div>
                         <div onClick={() => setMegaMenu(false)} className="col-12 col-sm-6">
                           <Link href="/best-brokers-one" className="category-item">
                             <Image src={brokerCat4} alt="" />
-                            <p className="m-text fw-medium">Best Brokers for Beginners</p>
+                            <p className="m-text fw-medium">Best Gifts for Children </p>
                           </Link>
                         </div>
                         <div onClick={() => setMegaMenu(false)} className="col-12 col-sm-6">
                           <Link href="/best-brokers-one" className="category-item">
                             <Image src={brokerCat5} alt="" />
-                            <p className="m-text fw-medium">Best Stock Trading Apps</p>
+                            <p className="m-text fw-medium">Best Gifts for Young Boy</p>
                           </Link>
                         </div>
                         <div onClick={() => setMegaMenu(false)} className="col-12 col-sm-6">
                           <Link href="/best-brokers-one" className="category-item">
                             <Image src={brokerCat6} alt="" />
-                            <p className="m-text fw-medium">Best discount brokers</p>
+                            <p className="m-text fw-medium">Best Gifts for Young Girl</p>
                           </Link>
                         </div>
                         <div onClick={() => setMegaMenu(false)} className="col-12 col-sm-6">
                           <Link href="/best-brokers-one" className="category-item">
                             <Image src={brokerCat7} alt="" />
-                            <p className="m-text fw-medium">Best Crypto Brokers</p>
+                            <p className="m-text fw-medium">Best Gifts for Baby</p>
                           </Link>
                         </div>
                         <div onClick={() => setMegaMenu(false)} className="col-12 col-sm-6">
                           <Link href="/best-brokers-one" className="category-item">
                             <Image src={brokerCat8} alt="" />
-                            <p className="m-text fw-medium">Best Futures Brokers</p>
+                            <p className="m-text fw-medium">Best Gifts for 2026</p>
                           </Link>
                         </div>
                         <div onClick={() => setMegaMenu(false)} className="col-12 col-sm-6">
                           <Link href="/best-brokers-one" className="category-item">
                             <Image src={brokerCat9} alt="" />
-                            <p className="m-text fw-medium">Best Brokers for bonds</p>
+                            <p className="m-text fw-medium">Best Retro Gifts </p>
                           </Link>
                         </div>
                         <div onClick={() => setMegaMenu(false)} className="col-12 col-sm-6">
                           <Link href="/best-brokers-one" className="category-item">
                             <Image src={brokerCat10} alt="" />
-                            <p className="m-text fw-medium">Best low spread forex brokers</p>
+                            <p className="m-text fw-medium">Best Homemade Gifts</p>
                           </Link>
                         </div>
                         <div className="col-12">
                           <a className="d-flex align-items-center fw-semibold text-primary gap-2" href="#">
-                            BrokR Awards 2024 <i className="ph ph-arrow-right"></i>
+                            Giftverse Awards 2026 <i className="ph ph-arrow-right"></i>
                           </a>
                         </div>
                       </div>
@@ -160,11 +160,11 @@ const Header = () => {
                         </Link>
                         <Link onClick={() => setMegaMenu(false)} href="/best-brokers-two" className="country-item">
                           <Image src={uae} alt="" />
-                          <p>United Arab Emirates</p>
+                          <p>Canada</p>
                         </Link>
                         <Link onClick={() => setMegaMenu(false)} href="/best-brokers-two" className="country-item">
                           <Image src={germany} alt="" />
-                          <p>Germany</p>
+                          <p>France</p>
                         </Link>
                       </div>
                       <div className="mt-4">
@@ -204,12 +204,12 @@ const Header = () => {
               </li>
               <li className="broker-review dropdown-item">
                 <button className="broker-review-dropdown-btn">
-                  Broker Reviews <i className="ph ph-caret-down"></i>
+                  Gifts Reviews <i className="ph ph-caret-down"></i>
                 </button>
                 <div className={`broker-review-mega-menu dropdown-list`}>
                   <div className="row g-4">
                     <div className="col-12 col-xl-3 col-xxl-5col">
-                      <h5 className="mb-3 mb-lg-4 fw-semibold">Best stock brokers</h5>
+                      <h5 className="mb-3 mb-lg-4 fw-semibold">Best Gifts</h5>
                       <ul>
                         <li onClick={() => setMobileMenu(false)}>
                           <Link className="menu-link blue" href="/broker-review/oanda">
@@ -410,10 +410,10 @@ const Header = () => {
                     <Link href="/contact-us">Contact Us</Link>
                   </li>
                   <li onClick={() => setMobileMenu(false)}>
-                    <Link href="/best-brokers-one">Best Brokers 1</Link>
+                    <Link href="/best-brokers-one">Best Gift Right Now</Link>
                   </li>
                   <li onClick={() => setMobileMenu(false)}>
-                    <Link href="/best-brokers-two">Best Brokers 2</Link>
+                    <Link href="/best-brokers-two">Best Gifts Last Month</Link>
                   </li>
                   <li onClick={() => setMobileMenu(false)}>
                     <Link href="/faqs">Faqs</Link>
@@ -462,13 +462,13 @@ const Header = () => {
                 <Link href="#">English</Link>
               </li>
               <li>
-                <Link href="#">Arabic</Link>
+                <Link href="#">French</Link>
+              </li>
+              <li>
+                <Link href="#">Spanish</Link>
               </li>
               <li>
                 <Link href="#">German</Link>
-              </li>
-              <li>
-                <Link href="#">French</Link>
               </li>
             </ul>
           </div>
