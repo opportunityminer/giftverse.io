@@ -73,63 +73,63 @@ const Header = () => {
                       <h5 className="fw-semibold mb-4 text-capitalize">Best gifts by categories</h5>
                       <div className="row g-2 g-md-3 gx-xl-4">
                         <div onClick={() => setMegaMenu(false)} className="col-12 col-sm-6">
-                          <Link href="/best-brokers-one" className="category-item">
-                            <Image src={brokerCat1} alt="" />
-                            <p className="m-text fw-medium">Best Birthday Gifts</p>
+                          <Link href="/best-gift-one" className="category-item">
+                            <Image src={giftCat1} alt="" />
+                            <p className="m-text fw-medium">Tech & Gadget</p>
                           </Link>
                         </div>
                         <div onClick={() => setMegaMenu(false)} className="col-12 col-sm-6">
-                          <Link href="/best-brokers-one" className="category-item">
-                            <Image src={brokerCat2} alt="" />
-                            <p className="m-text fw-medium">Best Gifts for Adult Men</p>
+                          <Link href="/best-gift-one" className="category-item">
+                            <Image src={giftCat2} alt="" />
+                            <p className="m-text fw-medium">For Him</p>
                           </Link>
                         </div>
                         <div onClick={() => setMegaMenu(false)} className="col-12 col-sm-6">
-                          <Link href="/best-brokers-one" className="category-item">
+                          <Link href="/best-gift-one" className="category-item">
                             <Image src={brokerCat3} alt="" />
-                            <p className="m-text fw-medium">Best Gifts for Adult Women</p>
+                            <p className="m-text fw-medium">For Her</p>
                           </Link>
                         </div>
                         <div onClick={() => setMegaMenu(false)} className="col-12 col-sm-6">
-                          <Link href="/best-brokers-one" className="category-item">
+                          <Link href="/best-gift-one" className="category-item">
                             <Image src={brokerCat4} alt="" />
-                            <p className="m-text fw-medium">Best Gifts for Children </p>
+                            <p className="m-text fw-medium">For Kids</p>
                           </Link>
                         </div>
                         <div onClick={() => setMegaMenu(false)} className="col-12 col-sm-6">
-                          <Link href="/best-brokers-one" className="category-item">
+                          <Link href="/best-gift-one" className="category-item">
                             <Image src={brokerCat5} alt="" />
-                            <p className="m-text fw-medium">Best Gifts for Young Boy</p>
+                            <p className="m-text fw-medium">Home & Kitchen</p>
                           </Link>
                         </div>
                         <div onClick={() => setMegaMenu(false)} className="col-12 col-sm-6">
-                          <Link href="/best-brokers-one" className="category-item">
+                          <Link href="/best-gift-one" className="category-item">
                             <Image src={brokerCat6} alt="" />
-                            <p className="m-text fw-medium">Best Gifts for Young Girl</p>
+                            <p className="m-text fw-medium">Fitness & Wellness</p>
                           </Link>
                         </div>
                         <div onClick={() => setMegaMenu(false)} className="col-12 col-sm-6">
-                          <Link href="/best-brokers-one" className="category-item">
+                          <Link href="/best-gift-one" className="category-item">
                             <Image src={brokerCat7} alt="" />
-                            <p className="m-text fw-medium">Best Gifts for Baby</p>
+                            <p className="m-text fw-medium">Luxury Picks</p>
                           </Link>
                         </div>
                         <div onClick={() => setMegaMenu(false)} className="col-12 col-sm-6">
-                          <Link href="/best-brokers-one" className="category-item">
+                          <Link href="/best-gift-one" className="category-item">
                             <Image src={brokerCat8} alt="" />
-                            <p className="m-text fw-medium">Best Gifts for 2026</p>
+                            <p className="m-text fw-medium">Budget Finds</p>
                           </Link>
                         </div>
                         <div onClick={() => setMegaMenu(false)} className="col-12 col-sm-6">
-                          <Link href="/best-brokers-one" className="category-item">
+                          <Link href="/best-gift-one" className="category-item">
                             <Image src={brokerCat9} alt="" />
-                            <p className="m-text fw-medium">Best Retro Gifts </p>
+                            <p className="m-text fw-medium">Eco-Friendly</p>
                           </Link>
                         </div>
                         <div onClick={() => setMegaMenu(false)} className="col-12 col-sm-6">
-                          <Link href="/best-brokers-one" className="category-item">
+                          <Link href="/best-gift-one" className="category-item">
                             <Image src={brokerCat10} alt="" />
-                            <p className="m-text fw-medium">Best Homemade Gifts</p>
+                            <p className="m-text fw-medium">Homemade</p>
                           </Link>
                         </div>
                         <div className="col-12">
@@ -142,23 +142,23 @@ const Header = () => {
                     <div className="country col-lg-4 col-xl-3">
                       <h5 className="fw-semibold mb-4 text-capitalize">country recommendation</h5>
                       <div className="country-list">
-                        <Link onClick={() => setMegaMenu(false)} href="/best-brokers-two" className="country-item">
+                        <Link onClick={() => setMegaMenu(false)} href="/best-gifts-two" className="country-item">
                           <Image src={usa} alt="" />
                           <p>United States</p>
                         </Link>
-                        <Link onClick={() => setMegaMenu(false)} href="/best-brokers-two" className="country-item">
+                        <Link onClick={() => setMegaMenu(false)} href="/best-gifts-two" className="country-item">
                           <Image src={can} alt="" />
                           <p>Canada</p>
                         </Link>
-                        <Link onClick={() => setMegaMenu(false)} href="/best-brokers-two" className="country-item">
+                        <Link onClick={() => setMegaMenu(false)} href="/best-gifts-two" className="country-item">
                           <Image src={uk} alt="" />
                           <p>United Kingdom</p>
                         </Link>
-                        <Link onClick={() => setMegaMenu(false)} href="/best-brokers-two" className="country-item">
+                        <Link onClick={() => setMegaMenu(false)} href="/best-gifts-two" className="country-item">
                           <Image src={australia} alt="" />
                           <p>Autralia</p>
                         </Link>
-                        <Link onClick={() => setMegaMenu(false)} href="/best-brokers-two" className="country-item">
+                        <Link onClick={() => setMegaMenu(false)} href="/best-gifts-two" className="country-item">
                           <Image src={france} alt="" />
                           <p>France</p>
                         </Link>
@@ -184,207 +184,213 @@ const Header = () => {
               </button>
               <li className="dropdown-item">
                 <button>
-                  Home <i className="ph ph-caret-down"></i>
+                  Discover Gifts <i className="ph ph-caret-down"></i>
                 </button>
                 <ul className="dropdown-list">
                   <li onClick={() => setMobileMenu(false)}>
-                    <Link href="/">Home One</Link>
+                    <Link href="/">Home - Gift Discovery</Link>
                   </li>
                   <li onClick={() => setMobileMenu(false)}>
-                    <Link href="/index-two">Home Two</Link>
+                    <Link href="/index-two">Occasions & Holidays</Link>
                   </li>
                   <li onClick={() => setMobileMenu(false)}>
-                    <Link href="/index-three">Home Three</Link>
+                    <Link href="/index-three">Luxury & Premium Gifts</Link>
                   </li>
                 </ul>
               </li>
-              <li className="broker-review dropdown-item">
-                <button className="broker-review-dropdown-btn">
-                  Gifts Reviews <i className="ph ph-caret-down"></i>
+              <li className="gifts-review dropdown-item">
+                <button className="gifts-review-dropdown-btn">
+                  Gift Reviews <i className="ph ph-caret-down"></i>
                 </button>
-                <div className={`broker-review-mega-menu dropdown-list`}>
+                <div className={`gifts-review-mega-menu dropdown-list`}>
                   <div className="row g-4">
                     <div className="col-12 col-xl-3 col-xxl-5col">
-                      <h5 className="mb-3 mb-lg-4 fw-semibold">Best Gifts</h5>
+                      <h5 className="mb-3 mb-lg-4 fw-semibold">Best Tech &amp; Gadget Gifts</h5>
                       <ul>
                         <li onClick={() => setMobileMenu(false)}>
-                          <Link className="menu-link blue" href="/broker-review/oanda">
-                            Charles Schwab
+                          <Link className="menu-link blue" href="/gift-reviews/airpods-pro-2">
+                            Apple AirPods Pro 2
                           </Link>
                         </li>
                         <li onClick={() => setMobileMenu(false)}>
-                          <Link className="menu-link blue" href="/broker-review/oanda">
-                            Fidelity Investments
+                          <Link className="menu-link blue" href="/gift-reviews/kindle-scribe">
+                            Kindle Scribe
                           </Link>
                         </li>
                         <li onClick={() => setMobileMenu(false)}>
-                          <Link className="menu-link blue" href="/broker-review/oanda">
-                            TD Ameeritrade
+                          <Link className="menu-link blue" href="/gift-reviews/nintendo-switch-oled">
+                            Nintendo Switch OLED
                           </Link>
                         </li>
                         <li onClick={() => setMobileMenu(false)}>
-                          <Link className="menu-link blue" href="/broker-review/oanda">
-                            E Trade
+                          <Link className="menu-link blue" href="/gift-reviews/anker-powercore">
+                            Anker PowerCore Power Bank
                           </Link>
                         </li>
                         <li onClick={() => setMobileMenu(false)}>
-                          <Link className="menu-link blue" href="/broker-review/oanda">
-                            Interactive Brokers
+                          <Link className="menu-link blue" href="/gift-reviews/meta-quest-3">
+                            Meta Quest 3
                           </Link>
                         </li>
                       </ul>
                     </div>
+
                     <div className="col-12 col-xl-3 col-xxl-5col">
-                      <h5 className="mb-3 mb-lg-4 fw-semibold">Best forex brokers</h5>
+                      <h5 className="mb-3 mb-lg-4 fw-semibold">Best Gifts for Him</h5>
                       <ul>
                         <li onClick={() => setMobileMenu(false)}>
-                          <Link className="menu-link blue" href="/broker-review/oanda">
-                            IG Group
+                          <Link className="menu-link blue" href="/gift-reviews/stanley-quencher-40oz">
+                            Stanley Quencher 40oz
                           </Link>
                         </li>
                         <li onClick={() => setMobileMenu(false)}>
-                          <Link className="menu-link blue" href="/broker-review/oanda">
-                            Oanda
+                          <Link className="menu-link blue" href="/gift-reviews/dji-mini-3">
+                            DJI Mini 3 Drone
                           </Link>
                         </li>
                         <li onClick={() => setMobileMenu(false)}>
-                          <Link className="menu-link blue" href="/broker-review/oanda">
-                            Forex.com
+                          <Link className="menu-link blue" href="/gift-reviews/yeti-rambler">
+                            YETI Rambler
                           </Link>
                         </li>
                         <li onClick={() => setMobileMenu(false)}>
-                          <Link className="menu-link blue" href="/broker-review/oanda">
-                            CMC Markets
+                          <Link className="menu-link blue" href="/gift-reviews/garmin-forerunner-265">
+                            Garmin Forerunner 265
                           </Link>
                         </li>
                         <li onClick={() => setMobileMenu(false)}>
-                          <Link className="menu-link blue" href="/broker-review/oanda">
-                            Saxo Bank
+                          <Link className="menu-link blue" href="/gift-reviews/leatherman-wave">
+                            Leatherman Wave+
                           </Link>
                         </li>
                       </ul>
                     </div>
+
                     <div className="col-12 col-xl-3 col-xxl-5col">
-                      <h5 className="mb-3 mb-lg-4 fw-semibold">Best CFD brokers</h5>
+                      <h5 className="mb-3 mb-lg-4 fw-semibold">Best Gifts for Her</h5>
                       <ul>
                         <li onClick={() => setMobileMenu(false)}>
-                          <Link className="menu-link blue" href="/broker-review/oanda">
-                            Plus500
+                          <Link className="menu-link blue" href="/gift-reviews/dyson-airwrap">
+                            Dyson Airwrap
                           </Link>
                         </li>
                         <li onClick={() => setMobileMenu(false)}>
-                          <Link className="menu-link blue" href="/broker-review/oanda">
-                            IG Group
+                          <Link className="menu-link blue" href="/gift-reviews/lululemon-belt-bag">
+                            Lululemon Belt Bag
                           </Link>
                         </li>
                         <li onClick={() => setMobileMenu(false)}>
-                          <Link className="menu-link blue" href="/broker-review/oanda">
-                            CMC Markets
+                          <Link className="menu-link blue" href="/gift-reviews/kindle-paperwhite">
+                            Kindle Paperwhite
                           </Link>
                         </li>
                         <li onClick={() => setMobileMenu(false)}>
-                          <Link className="menu-link blue" href="/broker-review/oanda">
-                            eToro
+                          <Link className="menu-link blue" href="/gift-reviews/ourplace-always-pan">
+                            Our Place Always Pan
                           </Link>
                         </li>
                         <li onClick={() => setMobileMenu(false)}>
-                          <Link className="menu-link blue" href="/broker-review/oanda">
-                            Saxo Bank
+                          <Link className="menu-link blue" href="/gift-reviews/mejuri-travel-case">
+                            Mejuri Travel Jewelry Case
                           </Link>
                         </li>
                       </ul>
                     </div>
+
                     <div className="col-12 col-xl-3 col-xxl-5col">
-                      <h5 className="mb-3 mb-lg-4 fw-semibold">Best crypto brokers</h5>
+                      <h5 className="mb-3 mb-lg-4 fw-semibold">Best Gifts for Kids</h5>
                       <ul>
                         <li onClick={() => setMobileMenu(false)}>
-                          <Link className="menu-link blue" href="/broker-review/oanda">
-                            Coinbase
+                          <Link className="menu-link blue" href="/gift-reviews/lego-ideas">
+                            LEGO Ideas Set
                           </Link>
                         </li>
                         <li onClick={() => setMobileMenu(false)}>
-                          <Link className="menu-link blue" href="/broker-review/oanda">
-                            Binance
+                          <Link className="menu-link blue" href="/gift-reviews/toniebox">
+                            Toniebox
                           </Link>
                         </li>
                         <li onClick={() => setMobileMenu(false)}>
-                          <Link className="menu-link blue" href="/broker-review/oanda">
-                            Kraken
+                          <Link className="menu-link blue" href="/gift-reviews/magna-tiles">
+                            Magna-Tiles
                           </Link>
                         </li>
                         <li onClick={() => setMobileMenu(false)}>
-                          <Link className="menu-link blue" href="/broker-review/oanda">
-                            Gemini
+                          <Link className="menu-link blue" href="/gift-reviews/razor-scooter">
+                            Razor Scooter
                           </Link>
                         </li>
                         <li onClick={() => setMobileMenu(false)}>
-                          <Link className="menu-link blue" href="/broker-review/oanda">
-                            Revolut
+                          <Link className="menu-link blue" href="/gift-reviews/nintendo-switch-lite">
+                            Nintendo Switch Lite
                           </Link>
                         </li>
                       </ul>
                     </div>
+
                     <div className="col-12 col-xl-3 col-xxl-5col">
-                      <h5 className="mb-3 mb-lg-4 fw-semibold">Best futures brokers</h5>
+                      <h5 className="mb-3 mb-lg-4 fw-semibold">Best Home &amp; Kitchen Gifts</h5>
                       <ul>
                         <li onClick={() => setMobileMenu(false)}>
-                          <Link className="menu-link blue" href="/broker-review/oanda">
-                            TD Ameritrade
+                          <Link className="menu-link blue" href="/gift-reviews/ninja-air-fryer">
+                            Ninja Air Fryer
                           </Link>
                         </li>
                         <li onClick={() => setMobileMenu(false)}>
-                          <Link className="menu-link blue" href="/broker-review/oanda">
-                            Interactive Brokers
+                          <Link className="menu-link blue" href="/gift-reviews/ember-mug-2">
+                            Ember Mug 2
                           </Link>
                         </li>
                         <li onClick={() => setMobileMenu(false)}>
-                          <Link className="menu-link blue" href="/broker-review/oanda">
-                            TradeStation
+                          <Link className="menu-link blue" href="/gift-reviews/caraway-cookware">
+                            Caraway Cookware
                           </Link>
                         </li>
                         <li onClick={() => setMobileMenu(false)}>
-                          <Link className="menu-link blue" href="/broker-review/oanda">
-                            E Trade
+                          <Link className="menu-link blue" href="/gift-reviews/philips-wake-up-light">
+                            Philips Wake-Up Light
                           </Link>
                         </li>
                         <li onClick={() => setMobileMenu(false)}>
-                          <Link className="menu-link blue" href="/broker-review/oanda">
-                            NinjaTrader
+                          <Link className="menu-link blue" href="/gift-reviews/theragun-mini">
+                            Theragun Mini
                           </Link>
                         </li>
                       </ul>
                     </div>
                   </div>
-                  <a className="d-flex align-items-center fw-semibold text-primary gap-2" href="#">
+
+                  <a className="d-flex align-items-center fw-semibold text-primary gap-2" href="/gift-reviews">
                     More Gift Reviews <i className="ph ph-arrow-right"></i>
                   </a>
                 </div>
               </li>
+
               <li className="dropdown-item">
                 <button>
                   Tools <i className="ph ph-caret-down"></i>
                 </button>
                 <ul className="dropdown-list">
                   <li onClick={() => setMobileMenu(false)}>
-                    <Link href="/find-my-broker">Find My Gift</Link>
+                    <Link href="/find-my-gift">Find My Gift</Link>
                   </li>
                   <li onClick={() => setMobileMenu(false)}>
-                    <Link href="/compare-brokers">Compare Gifts</Link>
+                    <Link href="/compare-gifts">Gifts Comparison</Link>
                   </li>
                   <li onClick={() => setMobileMenu(false)}>
-                    <Link href="/brokerage-fee-calculator">Stock fee calculator</Link>
+                    <Link href="/gift-budget-calculator">Gift Budget Calculator</Link>
                   </li>
                   <li onClick={() => setMobileMenu(false)}>
-                    <Link href="/fx-fee-calculator">FX fee calculator</Link>
+                    <Link href="/gift-buying-101">Gift Buying 101</Link>
                   </li>
                   <li onClick={() => setMobileMenu(false)}>
-                    <Link href="/my-first-stock-trade">My First Stock Trade</Link>
+                    <Link href="/how-to-choose-the-perfect-gift">How to Choose the Perfect Gift</Link>
                   </li>
                   <li onClick={() => setMobileMenu(false)}>
-                    <Link href="/asset-compass">Asset Compass</Link>
+                    <Link href="/gift-categories">Gift Categories</Link>
                   </li>
                   <li onClick={() => setMobileMenu(false)}>
-                    <Link href="/scam-broker-shield">Scam Broker Shield</Link>
+                    <Link href="/avoid-fake-deals">Avoid Fake Deals</Link>
                   </li>
                 </ul>
               </li>
@@ -394,22 +400,22 @@ const Header = () => {
                 </button>
                 <ul className="dropdown-list">
                   <li onClick={() => setMobileMenu(false)}>
-                    <Link href="/about-us">About Us</Link>
+                    <Link href="/about-us">About Giftverse.io</Link>
                   </li>
                   <li onClick={() => setMobileMenu(false)}>
-                    <Link href="/blog">Blog</Link>
+                    <Link href="/blog">Gift Guides & Trends</Link>
                   </li>
                   <li onClick={() => setMobileMenu(false)}>
-                    <Link href="/blog/top-10-brokers-for-beginner-investors-in-2024">Blog Details</Link>
+                    <Link href="/blog/top-10-gifts-in-2026">Blog Details</Link>
                   </li>
                   <li onClick={() => setMobileMenu(false)}>
-                    <Link href="/contact-us">Contact Us</Link>
+                    <Link href="/contact-us">Contact</Link>
                   </li>
                   <li onClick={() => setMobileMenu(false)}>
-                    <Link href="/best-brokers-one">Best Gift Right Now</Link>
+                    <Link href="/best-gifts-one">Best Gifts 2026</Link>
                   </li>
                   <li onClick={() => setMobileMenu(false)}>
-                    <Link href="/best-brokers-two">Best Gifts Last Month</Link>
+                    <Link href="/best-gifts-two">Trending Right Now</Link>
                   </li>
                   <li onClick={() => setMobileMenu(false)}>
                     <Link href="/faqs">Faqs</Link>
@@ -463,9 +469,6 @@ const Header = () => {
               <li>
                 <Link href="#">Spanish</Link>
               </li>
-              <li>
-                <Link href="#">German</Link>
-              </li>
             </ul>
           </div>
           <div className="position-relative compare-link d-sm-flex d-none">
@@ -482,8 +485,8 @@ const Header = () => {
               <div className="user-info border-bottom pb-3 mb-3 d-flex align-items-start gap-2">
                 <Image src={user} className="rounded-circle" width={48} height={48} alt="" />
                 <div>
-                  <h5 className="h5 mb-1">Peter Parker</h5>
-                  <p className="s-text">Los Angeles, CA</p>
+                  <h5 className="h5 mb-1">Peter Baker</h5>
+                  <p className="s-text">Montreal, CAN</p>
                 </div>
               </div>
               <li>
