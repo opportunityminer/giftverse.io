@@ -2,22 +2,22 @@
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import logo from "@/public/images/logo.png";
-import brokerCat1 from "@/public/images/broker-category/broker-category-1.png";
-import brokerCat2 from "@/public/images/broker-category/broker-category-2.png";
-import brokerCat3 from "@/public/images/broker-category/broker-category-3.png";
-import brokerCat4 from "@/public/images/broker-category/broker-category-4.png";
-import brokerCat5 from "@/public/images/broker-category/broker-category-5.png";
-import brokerCat6 from "@/public/images/broker-category/broker-category-6.png";
-import brokerCat7 from "@/public/images/broker-category/broker-category-7.png";
-import brokerCat8 from "@/public/images/broker-category/broker-category-8.png";
-import brokerCat9 from "@/public/images/broker-category/broker-category-9.png";
-import brokerCat10 from "@/public/images/broker-category/broker-category-10.png";
+import giftCat1 from "@/public/images/gift-category/gift-category-1.png";
+import giftCat2 from "@/public/images/gift-category/gift-category-2.png";
+import giftCat3 from "@/public/images/gift-category/gift-category-3.png";
+import giftCat4 from "@/public/images/gift-category/gift-category-4.png";
+import giftCat5 from "@/public/images/gift-category/gift-category-5.png";
+import giftCat6 from "@/public/images/gift-category/gift-category-6.png";
+import giftCat7 from "@/public/images/gift-category/gift-category-7.png";
+import giftCat8 from "@/public/images/gift-category/gift-category-8.png";
+import giftCat9 from "@/public/images/gift-category/gift-category-9.png";
+import giftCat10 from "@/public/images/gift-category/gift-category-10.png";
 import usa from "@/public/images/country/usa.png";
 import australia from "@/public/images/country/australia.png";
-import germany from "@/public/images/country/germany.png";
-import uae from "@/public/images/country/uae.png";
+import france from "@/public/images/country/france.png";
+import can from "@/public/images/country/can.png";
 import uk from "@/public/images/country/uk.png";
-import Link from "next/link";
+import Link from "next/li nk";
 import OutsideClickHandler from "react-outside-click-handler";
 import user from "@/public/images/user/user-1.png";
 
@@ -26,11 +26,7 @@ const Header = () => {
   const [mobileMenu, setMobileMenu] = React.useState(false);
   const [mobileSearch, setMobileSearch] = React.useState(false);
 
-  useEffect(() => {
-    if (window != undefined) {
-      const dropdownItems = document.querySelectorAll(".dropdown-item");
-
-      const handleItemClick = (event: any) => {
+        const handleItemClick = (event: any) => {
         const submenu = event.currentTarget.querySelector(".dropdown-list");
         if (submenu) {
           const allSubmenus = document.querySelectorAll(".dropdown-item .dropdown-list");
@@ -151,6 +147,10 @@ const Header = () => {
                           <p>United States</p>
                         </Link>
                         <Link onClick={() => setMegaMenu(false)} href="/best-brokers-two" className="country-item">
+                          <Image src={can} alt="" />
+                          <p>Canada</p>
+                        </Link>
+                        <Link onClick={() => setMegaMenu(false)} href="/best-brokers-two" className="country-item">
                           <Image src={uk} alt="" />
                           <p>United Kingdom</p>
                         </Link>
@@ -159,11 +159,7 @@ const Header = () => {
                           <p>Autralia</p>
                         </Link>
                         <Link onClick={() => setMegaMenu(false)} href="/best-brokers-two" className="country-item">
-                          <Image src={uae} alt="" />
-                          <p>Canada</p>
-                        </Link>
-                        <Link onClick={() => setMegaMenu(false)} href="/best-brokers-two" className="country-item">
-                          <Image src={germany} alt="" />
+                          <Image src={france} alt="" />
                           <p>France</p>
                         </Link>
                       </div>
@@ -360,7 +356,7 @@ const Header = () => {
                     </div>
                   </div>
                   <a className="d-flex align-items-center fw-semibold text-primary gap-2" href="#">
-                    More Broker Reviews <i className="ph ph-arrow-right"></i>
+                    More Gift Reviews <i className="ph ph-arrow-right"></i>
                   </a>
                 </div>
               </li>
@@ -370,10 +366,10 @@ const Header = () => {
                 </button>
                 <ul className="dropdown-list">
                   <li onClick={() => setMobileMenu(false)}>
-                    <Link href="/find-my-broker">Find My broker</Link>
+                    <Link href="/find-my-broker">Find My Gift</Link>
                   </li>
                   <li onClick={() => setMobileMenu(false)}>
-                    <Link href="/compare-brokers">Compare brokers</Link>
+                    <Link href="/compare-brokers">Compare Gifts</Link>
                   </li>
                   <li onClick={() => setMobileMenu(false)}>
                     <Link href="/brokerage-fee-calculator">Stock fee calculator</Link>
