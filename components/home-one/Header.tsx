@@ -472,7 +472,7 @@ const Header = () => {
             </ul>
           </div>
           <div className="position-relative compare-link d-sm-flex d-none">
-            <Link href="/compare-brokers" className="link cursor-pointer">
+            <Link href="/gift-comparison" className="link cursor-pointer">
               <i className="ph ph-arrows-left-right"></i>
             </Link>
             <span>1</span>

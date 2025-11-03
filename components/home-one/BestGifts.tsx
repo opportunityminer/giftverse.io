@@ -1,18 +1,18 @@
 import Image from "next/image";
 import React from "react";
 import Link from "next/link";
-import { brokers } from "../home-two/HighestRatedBroker";
-import { formatString } from "@/app/(common)/broker-review/[title]/page";
+import { gifts } from "../home-two/top-rated-gifts";
+import { formatString } from "@/app/(common)/gift-review/[title]/page";
 
-const BestBrokers = () => {
+const BestGifts = () => {
   return (
-    <section className="best-broker overflow-x-hidden">
+    <section className="best-gifts overflow-x-hidden">
       <div className="container">
         <div className="row gy-5 align-items-center">
           <div data-aos="fade-in" className="col-lg-6">
             <div className="box-lg">
-              <h4 className="fw-semibold bb-dashed">Top Broker list</h4>
-              <div className="investment-list overflow-x-auto">
+              <h4 className="fw-semibold bb-dashed">Top Gift list</h4>
+              <div className="gift-list overflow-x-auto">
                 <table className="w-100 whitespace-nowrap">
                   <tbody>
                     {brokers.slice(0, 5).map(({ image, rating, title }) => (
@@ -35,7 +35,7 @@ const BestBrokers = () => {
                           </div>
                         </td>
                         <td>
-                          <Link href={`/broker-review/${formatString(title)}`} className="btn-sm btn btn-outline-secondary rounded-5 py-2 px-4">
+                          <Link href={`/gift-review/${formatString(title)}`} className="btn-sm btn btn-outline-secondary rounded-5 py-2 px-4">
                             View Link
                           </Link>
                         </td>
@@ -47,10 +47,10 @@ const BestBrokers = () => {
             </div>
           </div>
           <div data-aos="fade-left" className="col-lg-6 col-xl-5 offset-xl-1">
-            <h2 className="display-4 mb-3 mb-xl-4 fw-bold">Check Out The Best Brokers in Worlds</h2>
-            <p className="mb-4 mb-xl-5">Trust is the cornerstone of our platform. Count on us to be your reliable companion on your financial journey.</p>
-            <Link href="/best-brokers-one" className="btn btn-secondary fw-semibold d-inline-flex align-items-center gap-2">
-              See All Brokers <i className="ph ph-arrow-right"></i>
+            <h2 className="display-4 mb-3 mb-xl-4 fw-bold">Discover the Best Gifts in the Universe</h2>
+            <p className="mb-4 mb-xl-5">Giftverse helps you find unique, thoughtful, and trending gifts loved by people everywhere — all in one magical place.</p>
+            <Link href="/best-gifts-2026" className="btn btn-secondary fw-semibold d-inline-flex align-items-center gap-2">
+              See All Gifts <i className="ph ph-arrow-right"></i>
             </Link>
           </div>
         </div>
@@ -59,4 +59,4 @@ const BestBrokers = () => {
   );
 };
 
-export default BestBrokers;
+export default BestGifts;
